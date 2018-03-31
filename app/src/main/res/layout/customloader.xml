@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please wait..!!!"
+        android:textAlignment="center" />
+
+    <com.github.jorgecastillo.FillableLoader
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:fl_originalWidth="@integer/fillDuration"
+        app:fl_originalHeight="@integer/fillPercentage"
+        app:fl_strokeColor="@color/strokeColor"
+        app:fl_fillColor="@color/fillColor"
+        app:fl_strokeWidth="@dimen/strokeWidth"
+        app:fl_strokeDrawingDuration="@integer/strokeDrawingDuration"
+        app:fl_fillDuration="@integer/fillDuration"
+        app:fl_clippingTransform="waves"
+        app:fl_fillPercentage="@integer/fillPercentage"
+        />
+</LinearLayout>

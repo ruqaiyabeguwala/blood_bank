@@ -1,0 +1,85 @@
+
+    <!-- A CardView that contains a TextView -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="17dp"
+    android:paddingBottom="10dp"
+        android:paddingRight="0dp"
+    android:paddingTop="10dp"
+    card_view:cardCornerRadius="10dp"
+    tools:cardElevation="2dp">
+
+
+        <TextView
+            android:id="@+id/listbd_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/listhos"
+            android:text="id"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/listdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_marginBottom="6dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="TextView"
+            android:textSize="15sp"
+            tools:text="date" />
+
+        <TextView
+            android:id="@+id/listhos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listbd_id"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:text="hospital" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/listhos"
+            android:layout_below="@+id/listhos"
+            android:src="@android:drawable/ic_menu_recent_history" />
+
+        <ImageView
+            android:id="@+id/listcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_help"
+            android:layout_alignBottom="@+id/listhos"
+            android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tvlistcon"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/listcon"
+        android:text="con"
+        android:textAlignment="textEnd" />
+
+</RelativeLayout>
+
+
+
+
+
+

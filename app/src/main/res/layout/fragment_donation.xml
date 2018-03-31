@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.win7.bloodbank.DonationFragment">
+
+
+    <Spinner
+        android:id="@+id/don_bg_spin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:layout_marginTop="121dp"
+        android:background="@android:color/darker_gray"
+        android:foregroundTint="@color/cardview_dark_background" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="Donate Blood Now!"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="30dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/don_hos_spin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/btn_donate"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+
+        android:layout_alignStart="@+id/don_hos_spin"
+        android:layout_below="@+id/don_hos_spin"
+        android:layout_marginTop="37dp"
+        android:padding="11dp"
+        android:text="Donate!" />
+
+</RelativeLayout>

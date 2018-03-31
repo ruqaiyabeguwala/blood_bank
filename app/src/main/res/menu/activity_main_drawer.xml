@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Recent Activities" />
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Donate Blood" />
+        <item
+            android:id="@+id/nav_retrieve"
+            android:icon="@android:drawable/stat_sys_upload_done"
+            android:title="Retrieve Blood" />
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Edit Profile" />
+
+            <item
+                android:id="@+id/nav_cer"
+                android:icon="@android:drawable/ic_menu_save"
+                android:title="Generate Certificate" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Settings" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="Logout" />
+
+
+</menu>
